@@ -2,7 +2,27 @@
 Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-[Stage 0:>                                                         (0 + 4) / 11][Stage 0:=====>                                                    (1 + 6) / 11][Stage 0:=====================>                                    (4 + 4) / 11][Stage 0:==========================>                               (5 + 4) / 11][Stage 0:====================================>                     (7 + 4) / 11][Stage 0:==========================================>               (8 + 3) / 11][Stage 0:===============================================>          (9 + 2) / 11]                                                                                [Stage 3:>                                                          (0 + 1) / 1]                                                                                +------+----------+-------+-------------------+-------------------+-------------------+----------------+--------------------+-----+-------+--------------------+
+
+[Stage 0:>                                                         (0 + 4) / 11]
+
+[Stage 0:=====>                                                    (1 + 6) / 11]
+
+[Stage 0:=====================>                                    (4 + 4) / 11]
+
+[Stage 0:==========================>                               (5 + 4) / 11]
+
+[Stage 0:====================================>                     (7 + 4) / 11]
+
+[Stage 0:==========================================>               (8 + 3) / 11]
+
+[Stage 0:===============================================>          (9 + 2) / 11]
+
+                                                                                
+
+[Stage 3:>                                                          (0 + 1) / 1]
+
+                                                                                
++------+----------+-------+-------------------+-------------------+-------------------+----------------+--------------------+-----+-------+--------------------+
 |row_id|subject_id|hadm_id|          chartdate|          charttime|          storetime|        category|         description| cgid|iserror|                text|
 +------+----------+-------+-------------------+-------------------+-------------------+----------------+--------------------+-----+-------+--------------------+
 |561691|     55591| 152075|2133-02-16 00:00:00|2133-02-16 00:41:00|2133-02-16 00:52:47|Case Management |Nursing Progress ...|16284|      0|Valve replacement...|
@@ -44,5 +64,5 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 only showing top 20 rows
 
 
- Read data in spark from a file in bucket and adding desired columns names 
+ Read data in spark from a file in bucket
 
