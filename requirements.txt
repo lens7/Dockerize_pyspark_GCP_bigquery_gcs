@@ -1,0 +1,5 @@
+fsspec
+gcsfs
+pyspark
+google-cloud
+google-cloud-bigquery
